@@ -1,0 +1,203 @@
+
+/* -------------------------
+   RESET + GENERAL
+-------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: #2c4584;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------------
+   CONTAINER
+-------------------------- */
+.contanat {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* -------------------------
+   HEADER
+-------------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.logo1 {
+  color: black;
+}
+
+.logo2 {
+  color: white;
+}
+
+/* NAV */
+.nav1 a {
+  color: white;
+  margin-left: 12px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.nav1 a:hover {
+  color: #8dadff;
+  transform: scale(1.1);
+}
+
+/* -------------------------
+   "من نحن"
+-------------------------- */
+.data {
+  width: 60%;
+  margin: 60px auto;
+  text-align: right;
+}
+
+.data1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.are {
+  color: #cccccc;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* -------------------------
+   أعضاء المكتب التنفيذي
+-------------------------- */
+.pep {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  border-bottom: 1px rgba(255, 255, 255, 0.562) solid;
+  padding-bottom: 30px;
+}
+
+.pepe {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px rgba(255, 255, 255, 0.397) solid;
+}
+
+.Leader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+/* الصورة */
+.teacher {
+  width: 180px;
+  height: 300px;
+  border-radius: 30%;
+  border: 3px solid white;
+}
+/* النص */
+.true {
+  font-size: 26px;
+  color: white;
+}
+
+.name1 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.name2 span {
+  color: white;
+}
+
+.name2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* -------------------------
+   RESPONSIVE FOR MOBILE
+-------------------------- */
+@media (max-width: 600px) {
+
+  .contanat {
+    width: 90%;
+  }
+
+  .nav1 a {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .data {
+    width: 90%;
+    text-align: center;
+  }
+
+  .data1 {
+    font-size: 26px;
+  }
+
+  .are {
+    font-size: 18px;
+  }
+
+  .Leader img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .name1 {
+    font-size: 16px;
+  }
+}
+.contanat .hr2{
+  opacity:0.5;
+}
+/* المبادئ  */
+.us h2{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  border-bottom: 0.5px rgba(255, 255, 255, 0.397) solid;
+}
+.us .usm{
+  font-size:large;
+}
+/* الاهداف */
+.gools h2{
+  border-bottom: 0.5px rgba(255, 255, 255, 0.397) solid;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.gools p{
+    font-size:large;
+}
