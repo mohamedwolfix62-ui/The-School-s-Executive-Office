@@ -54,7 +54,7 @@ header {
 .nav1 a {
   color: white;
   margin-left: 12px;
-  font-size: 14px;
+  font-size: 16px;
   transition: 0.3s ease;
 }
 
@@ -200,4 +200,11 @@ header {
 }
 .gools p{
     font-size:large;
+}
+.need .true{
+  font-size: 30px;
+  margin-top: 5px;
+}
+.black1{
+  color: black;
 }
